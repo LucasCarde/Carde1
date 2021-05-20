@@ -6,6 +6,19 @@ body {
 img {
   width: 60%;
 }
+.fas{
+  margin-top: 10%;
+  float: left;
+}
+.volver {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left: 20%;
+}
+.botonvolver{
+  padding-right: 30px;
+}
 
 .izq {
   color: white;
