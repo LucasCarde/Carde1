@@ -1,29 +1,22 @@
 body {
   background-color: grey;
-  padding: 50px;
   font-family: 'Oswald', sans-serif;
 }
 
 img {
-  width: 200px;
-}
-
-.row {
-  margin: auto;
+  width: 60%;
 }
 
 .izq {
   color: white;
   background-image: url("fotos/phil-desforges-FHTYd6wvPmM-unsplash.jpg");
   background-size: cover;
-  margin-right: 0;
+  padding-top: 70px;
 }
 
 .derecha {
   background-color: white;
-  margin-right: 300px;
   padding-top: 120px;
-  margin-left: 0;
   padding-bottom: 100px;
 }
 
