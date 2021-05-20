@@ -1,0 +1,69 @@
+body {
+  background-color: grey;
+  padding: 50px;
+  font-family: 'Oswald', sans-serif;
+}
+
+img {
+  width: 200px;
+}
+
+.row {
+  margin: auto;
+}
+
+.izq {
+  color: white;
+  background-image: url("fotos/phil-desforges-FHTYd6wvPmM-unsplash.jpg");
+  background-size: cover;
+  margin-right: 0;
+}
+
+.derecha {
+  background-color: white;
+  margin-right: 300px;
+  padding-top: 120px;
+  margin-left: 0;
+  padding-bottom: 100px;
+}
+
+.estudiante {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  margin-top: 5px;
+  margin-bottom: 60px;
+}
+
+.sobremi {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: 'Newsreader', serif;
+  font-size: 1.1rem;
+}
+
+em {
+  font-family: 'Newsreader', serif;
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 15px;
+  font-weight: lighter;
+}
+
+.otros {
+  margin-top: 5px;
+}
+
+/* Tambien estan las pseudo clases que serian por ejemplo img:hover{propiedades}
+Se usan para que las propiedades cambien dependiendo del estado del selector (hover seria cuando le pasas el mouse por encima)*/
