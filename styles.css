@@ -2,3 +2,11 @@ nav{
   padding-left: 1%;
   padding-right: 1%;
 }
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.navbar-brand{
+  padding-left: 10px;
+}
