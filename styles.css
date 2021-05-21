@@ -1,3 +1,16 @@
+body {
+  background-color: grey;
+  font-family: 'Oswald', sans-serif;
+}
+
+p, em {
+  font-family: 'Newsreader', serif;
+}
+
+.container-fluid {
+  padding: 1% 20%;
+}
+
 /* BARRA DE NAVEGACION */
 nav {
   padding-left: 1%;
@@ -10,4 +23,87 @@ nav {
 
 .nav-item {
   padding: 0 18px;
+}
+
+/* IZQUIERDA */
+.izq {
+  color: white;
+  background-image: url("fotos/phil-desforges-FHTYd6wvPmM-unsplash.jpg");
+  background-size: cover;
+  padding-top: 7%;
+  padding-bottom: 3%;
+}
+
+.fotoperfil {
+  width: 60%;
+}
+
+.Minombre {
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 15px;
+  font-weight: lighter;
+}
+
+.estudiante {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  margin-top: 5px;
+  margin-bottom: 60px;
+}
+
+.habilidades {
+  font-size: 1.1rem;
+}
+
+/* DERECHA */
+.derecha {
+  background-color: white;
+  padding-top: 10%;
+  padding-bottom: 3%;
+}
+
+.sobremi {
+  font-family: 'Oswald', sans-serif;
+}
+
+.subtitulos {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.fechas {
+  font-size: 1rem;
+}
+
+.otros {
+  margin-top: 1.5%;
+}
+
+.volver {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left: 20%;
+}
+
+.botonvolver {
+  padding-right: 30px;
+}
+
+.fas {
+  margin-top: 10%;
+  float: left;
+}
+
+/* MODIFICACIONES PARA CELU */
+@media (max-width: 900px) {
+  .container-fluid {
+    padding: 0;
+  }
+
+  .izq {
+    padding-left: 5%;
+  }
 }
