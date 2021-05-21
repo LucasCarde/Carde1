@@ -3,19 +3,8 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
-.container-fluid {
-  padding: 1% 20%;
-}
-
 img {
   width: 60%;
-}
-
-h1 {
-  font-size: 3rem;
-  line-height: 1.1;
-  margin-bottom: 15px;
-  font-weight: lighter;
 }
 
 h5 {
@@ -23,14 +12,12 @@ h5 {
   margin-bottom: 5px;
 }
 
-p {
+p, em {
   font-family: 'Newsreader', serif;
-  font-size: 1.1rem;
 }
 
-em {
-  font-family: 'Newsreader', serif;
-  font-size: 1rem;
+.container-fluid {
+  padding: 1% 20%;
 }
 
 /* IZQUIERDA */
@@ -42,12 +29,23 @@ em {
   padding-bottom: 3%;
 }
 
+.Minombre {
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 15px;
+  font-weight: lighter;
+}
+
 .estudiante {
   font-family: 'Inter', sans-serif;
   font-size: 1.1rem;
   font-weight: lighter;
   margin-top: 5px;
   margin-bottom: 60px;
+}
+
+.habilidades {
+  font-size: 1.1rem;
 }
 
 /* DERECHA */
@@ -59,6 +57,10 @@ em {
 
 .sobremi {
   font-family: 'Oswald', sans-serif;
+}
+
+.fechas {
+  font-size: 1rem;
 }
 
 .otros {
