@@ -12,7 +12,7 @@ p, em {
 }
 
 /* BARRA DE NAVEGACION */
-nav {
+.navinicio {
   padding-left: 1%;
   padding-right: 1%;
 }
@@ -25,7 +25,7 @@ nav {
   padding: 0 18px;
 }
 
-/* IZQUIERDA */
+/* IZQUIERDA CV */
 .izq {
   color: white;
   background-image: url("fotos/phil-desforges-FHTYd6wvPmM-unsplash.jpg");
@@ -57,7 +57,7 @@ nav {
   font-size: 1.1rem;
 }
 
-/* DERECHA */
+/* DERECHA CV */
 .derecha {
   background-color: white;
   padding-top: 10%;
@@ -80,6 +80,8 @@ nav {
 .otros {
   margin-top: 1.5%;
 }
+
+/* BOTON VOLVER A INICIO */
 
 .volver {
   text-decoration: none;
