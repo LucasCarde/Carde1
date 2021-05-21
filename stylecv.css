@@ -3,13 +3,66 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
+.container-fluid {
+  padding: 1% 20%;
+}
+
 img {
   width: 60%;
 }
 
-.fas {
-  margin-top: 10%;
-  float: left;
+h1 {
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 15px;
+  font-weight: lighter;
+}
+
+h5 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+p {
+  font-family: 'Newsreader', serif;
+  font-size: 1.1rem;
+}
+
+em {
+  font-family: 'Newsreader', serif;
+  font-size: 1rem;
+}
+
+/* IZQUIERDA */
+.izq {
+  color: white;
+  background-image: url("fotos/phil-desforges-FHTYd6wvPmM-unsplash.jpg");
+  background-size: cover;
+  padding-top: 7%;
+  padding-bottom: 3%;
+}
+
+.estudiante {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  margin-top: 5px;
+  margin-bottom: 60px;
+}
+
+/* DERECHA */
+.derecha {
+  background-color: white;
+  padding-top: 10%;
+  padding-bottom: 3%;
+}
+
+.sobremi {
+  font-family: 'Oswald', sans-serif;
+}
+
+.otros {
+  margin-top: 1.5%;
 }
 
 .volver {
@@ -23,62 +76,12 @@ img {
   padding-right: 30px;
 }
 
-.izq {
-  color: white;
-  background-image: url("fotos/phil-desforges-FHTYd6wvPmM-unsplash.jpg");
-  background-size: cover;
-  padding-top: 7%;
-  padding-bottom: 3%;
+.fas {
+  margin-top: 10%;
+  float: left;
 }
 
-.container-fluid {
-  padding: 1% 20%;
-}
-
-.derecha {
-  background-color: white;
-  padding-top: 10%;
-  padding-bottom: 3%;
-}
-
-.estudiante {
-  font-family: 'Inter', sans-serif;
-  font-size: 1.1rem;
-  font-weight: lighter;
-  margin-top: 5px;
-  margin-bottom: 60px;
-}
-
-.sobremi {
-  font-family: 'Oswald', sans-serif;
-}
-
-p {
-  font-family: 'Newsreader', serif;
-  font-size: 1.1rem;
-}
-
-em {
-  font-family: 'Newsreader', serif;
-  font-size: 1rem;
-}
-
-h5 {
-  font-size: 1rem;
-  margin-bottom: 5px;
-}
-
-h1 {
-  font-size: 3rem;
-  line-height: 1.1;
-  margin-bottom: 15px;
-  font-weight: lighter;
-}
-
-.otros {
-  margin-top: 1.5%;
-}
-
+/* MODIFICACIONES PARA CELU */
 @media (max-width: 900px) {
   .container-fluid {
     padding: 0;
