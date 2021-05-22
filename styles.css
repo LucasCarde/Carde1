@@ -11,6 +11,23 @@ p, em {
   padding: 1% 20%;
 }
 
+.quienGano{
+  margin-top: 5%;
+}
+.juegoDados{
+  text-align: center;
+}
+.dados{
+  width: 40%;
+}
+.botonJugar{
+  margin-top: 5%
+}
+
+.jugar{
+  text-decoration:none;
+  color: white;
+}
 /* BARRA DE NAVEGACION */
 .navinicio {
   padding-left: 1%;
@@ -101,6 +118,13 @@ p, em {
 
 /* MODIFICACIONES PARA CELU */
 @media (max-width: 900px) {
+  .quienGano{
+    margin-top: 20%;
+  }
+  .dados{
+    width: 60%;
+  }
+
   .container-fluid {
     padding: 0;
   }
@@ -108,12 +132,4 @@ p, em {
   .izq {
     padding-left: 5%;
   }
-}
-
-.juegoDados{
-  text-align: center;
-  padding-top: 5%;
-}
-.dados{
-  width: 40%;
 }
