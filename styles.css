@@ -109,3 +109,11 @@ p, em {
     padding-left: 5%;
   }
 }
+
+.juegoDados{
+  text-align: center;
+  padding-top: 5%;
+}
+.dados{
+  width: 40%;
+}
