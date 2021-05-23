@@ -15,11 +15,14 @@ p, em {
 
 .izqCol{
   position: relative;
-  left: 7%;
+  left: 8%;
+}
+.players{
+  margin-bottom: 5%;
 }
 .derCol{
   position: relative;
-  right: 7%;
+  right: 8%;
 }
 .quienGano {
   margin-top: 2%;
@@ -35,10 +38,13 @@ p, em {
 
 .dados {
   width: 40%;
+  background-color: white;
+  border-radius: 14%;
 }
 
 .botonJugar {
   margin-top: 5%;
+  width: 15%;
 }
 
 .jugar {

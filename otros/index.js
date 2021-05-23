@@ -8,44 +8,44 @@ document.querySelector(".botonJugar").addEventListener("click", function() {
   var n2 = Math.floor(a2 * 6) + 1;
   switch (n1) {
     case 1:
-      document.querySelector(".dado1").setAttribute("src", "https://lh3.googleusercontent.com/proxy/a9GCP246mCiDlHrzhXv4fgp6jEn6O2M488lq4fy0hMlmQ6uTiOn0CZphAgy_snmadU2XnKMe9eh3dTlYa-8p9yNWrRNSTDzev_Lc-ObrJ6jR")
+      document.querySelector(".dado1").setAttribute("src", "fotos/dice1.png")
       break;
     case 2:
-      document.querySelector(".dado1").setAttribute("src", "https://lh3.googleusercontent.com/proxy/ykfQQb5mBNQZG9IqkYpetG1L2eT_pmRMEc-y_z4MwWvaHnqw0QMgcOYn2FECfLsCl3elUCG5GQbu84uxFytEyKCcW11JT3kYPIp1lfPU5kJy")
+      document.querySelector(".dado1").setAttribute("src", "fotos/dice2.png")
       break;
     case 3:
-      document.querySelector(".dado1").setAttribute("src", "https://webstockreview.net/images/dice-clipart-5.gif")
+      document.querySelector(".dado1").setAttribute("src", "fotos/dice3.png")
       break;
     case 4:
-      document.querySelector(".dado1").setAttribute("src", "https://lh3.googleusercontent.com/proxy/EylkE8XLkM51YigUSrY-eQSbmqyaXpmmYh0KqejE5HJVvc8D1EjuMs9S0g8-llP8r_cMUIG7Ed_shoWOjTFAGq-8SXtDi8A3q6mR2Gsy96Dk")
+      document.querySelector(".dado1").setAttribute("src", "fotos/dice4.png")
       break;
     case 5:
-      document.querySelector(".dado1").setAttribute("src", "https://webstockreview.net/images/dice-clipart-dice-side-3.gif")
+      document.querySelector(".dado1").setAttribute("src", "fotos/dice5.png")
       break;
     case 6:
-      document.querySelector(".dado1").setAttribute("src", "https://lh3.googleusercontent.com/proxy/TxpKNNvjPt5El0Kb98p4FgPsVfRuwSgVD_aW-oWiQcouebc2qbAqXUQQ-J6jIvuSYQhfMpC361B7Brdpo3uD5ZvRCXdwkJXETvQy3rC3B3FDDbFd1kcCNXmk3Dg")
+      document.querySelector(".dado1").setAttribute("src", "fotos/dice6.png")
       break;
     default:
 
   }
   switch (n2) {
     case 1:
-      document.querySelector(".dado2").setAttribute("src", "https://lh3.googleusercontent.com/proxy/a9GCP246mCiDlHrzhXv4fgp6jEn6O2M488lq4fy0hMlmQ6uTiOn0CZphAgy_snmadU2XnKMe9eh3dTlYa-8p9yNWrRNSTDzev_Lc-ObrJ6jR")
+      document.querySelector(".dado2").setAttribute("src", "fotos/dice1.png")
       break;
     case 2:
-      document.querySelector(".dado2").setAttribute("src", "https://lh3.googleusercontent.com/proxy/ykfQQb5mBNQZG9IqkYpetG1L2eT_pmRMEc-y_z4MwWvaHnqw0QMgcOYn2FECfLsCl3elUCG5GQbu84uxFytEyKCcW11JT3kYPIp1lfPU5kJy")
+      document.querySelector(".dado2").setAttribute("src", "fotos/dice2.png")
       break;
     case 3:
-      document.querySelector(".dado2").setAttribute("src", "https://webstockreview.net/images/dice-clipart-5.gif")
+      document.querySelector(".dado2").setAttribute("src", "fotos/dice3.png")
       break;
     case 4:
-      document.querySelector(".dado2").setAttribute("src", "https://lh3.googleusercontent.com/proxy/EylkE8XLkM51YigUSrY-eQSbmqyaXpmmYh0KqejE5HJVvc8D1EjuMs9S0g8-llP8r_cMUIG7Ed_shoWOjTFAGq-8SXtDi8A3q6mR2Gsy96Dk")
+      document.querySelector(".dado2").setAttribute("src", "fotos/dice4.png")
       break;
     case 5:
-      document.querySelector(".dado2").setAttribute("src", "https://webstockreview.net/images/dice-clipart-dice-side-3.gif")
+      document.querySelector(".dado2").setAttribute("src", "fotos/dice5.png")
       break;
     case 6:
-      document.querySelector(".dado2").setAttribute("src", "https://lh3.googleusercontent.com/proxy/TxpKNNvjPt5El0Kb98p4FgPsVfRuwSgVD_aW-oWiQcouebc2qbAqXUQQ-J6jIvuSYQhfMpC361B7Brdpo3uD5ZvRCXdwkJXETvQy3rC3B3FDDbFd1kcCNXmk3Dg")
+      document.querySelector(".dado2").setAttribute("src", "fotos/dice6.png")
       break;
     default:
   }
