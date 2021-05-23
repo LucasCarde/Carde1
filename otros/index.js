@@ -1,6 +1,7 @@
 // JUEGO DE DADOS
 var sonido = new Audio("sonidos/mario-coin.mp3");
 document.querySelector(".botonJugar").addEventListener("click", function() {
+  sonido.play();
   var a1 = Math.random();
   var n1 = Math.floor(a1 * 6) + 1;
   var a2 = Math.random();
@@ -57,5 +58,4 @@ document.querySelector(".botonJugar").addEventListener("click", function() {
       document.querySelector(".quienGano").textContent = "Ha sido un empate!"
     }
   }
-  sonido.play();
 })
