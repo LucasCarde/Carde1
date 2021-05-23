@@ -7,27 +7,35 @@ p, em {
   font-family: 'Newsreader', serif;
 }
 
-.container-fluid {
+.concv {
   padding: 1% 20%;
 }
 
-.quienGano{
+.quienGano {
   margin-top: 5%;
 }
-.juegoDados{
-  text-align: center;
-}
-.dados{
-  width: 40%;
-}
-.botonJugar{
-  margin-top: 5%
+
+.jugadores {
+  margin-top: 5%;
 }
 
-.jugar{
-  text-decoration:none;
+.juegoDados {
+  text-align: center;
+}
+
+.dados {
+  width: 40%;
+}
+
+.botonJugar {
+  margin-top: 5%;
+}
+
+.jugar {
+  text-decoration: none;
   color: white;
 }
+
 /* BARRA DE NAVEGACION */
 .navinicio {
   padding-left: 1%;
@@ -99,7 +107,6 @@ p, em {
 }
 
 /* BOTON VOLVER A INICIO */
-
 .volver {
   text-decoration: none;
   color: white;
@@ -118,11 +125,17 @@ p, em {
 
 /* MODIFICACIONES PARA CELU */
 @media (max-width: 900px) {
-  .quienGano{
-    margin-top: 20%;
+  .quienGano {
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
-  .dados{
-    width: 60%;
+
+  .botonJugar {
+    margin-top: 13%;
+  }
+
+  .dados {
+    width: 65%;
   }
 
   .container-fluid {

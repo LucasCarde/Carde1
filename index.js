@@ -62,10 +62,12 @@ if (n2 === 1) {
 }
 
 // QUIEN GANO?
-if(n1 < n2){
+if (n1 < n2) {
   document.querySelector(".quienGano").textContent = "El ganador es el jugador 2";
-}
-else{
-  if(n1 > n2){document.querySelector(".quienGano").textContent = "El ganador es el jugador 1"}
-  else{document.querySelector(".quienGano").textContent = "Ha sido un empate!"}
+} else {
+  if (n1 > n2) {
+    document.querySelector(".quienGano").textContent = "El ganador es el jugador 1"
+  } else {
+    document.querySelector(".quienGano").textContent = "Ha sido un empate!"
+  }
 }
