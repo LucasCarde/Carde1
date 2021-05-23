@@ -108,8 +108,6 @@ p, em {
 
 /* BOTON VOLVER A INICIO */
 .volver {
-  text-decoration: none;
-  color: white;
   position: relative;
   left: 20%;
 }

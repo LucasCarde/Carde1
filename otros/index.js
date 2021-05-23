@@ -1,10 +1,20 @@
-// document.querySelector(".carde").classList.toggle("huge");
-// document.querySelector(".carde").classList.toggle("huge");
-// Despues borrar esto, era solo para probar (Tambien borrar en css)
+
+
+// CANCION
+var sonido = new Audio("sonidos/mario-coin.mp3");
+document.querySelector(".dado1").addEventListener("click", function () {
+  sonido.play();
+})
+document.querySelector(".dado2").addEventListener("click", function () {
+  sonido.play();
+})
+
 var a1 = Math.random();
 var a2 = Math.random();
 var n1 = Math.floor(a1 * 6) + 1;
 var n2 = Math.floor(a2 * 6) + 1;
+
+
 
 // DADO 1
 
