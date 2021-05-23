@@ -56,14 +56,16 @@ p, em {
 
 /* BARRA DE NAVEGACION */
 .marca{
-  width:10%;
+  width:37px;
   position: relative;
-  bottom: 4px; 
-  margin-right: 2%;
+  bottom: 4px;
+  margin-right: 5px;
 }
 .carde{
   position: relative;
   top: 2px;
+  margin-right: 0;
+  width: 50%;
 }
 .navinicio {
   padding-left: 1%;
