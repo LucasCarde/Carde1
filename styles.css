@@ -1,10 +1,13 @@
 body {
-  background-color: grey;
+  background-color: #5c636e;
   font-family: 'Oswald', sans-serif;
 }
 
 p, em {
   font-family: 'Newsreader', serif;
+}
+.navbar{
+  background-color: #1e2022;
 }
 
 .concv {
@@ -28,10 +31,11 @@ p, em {
 
 .quienGano {
   margin-top: 2%;
+  margin-bottom: 0;
 }
 
 .jugadores {
-  margin: 5% auto 0;
+  margin: 3% auto 0;
 }
 
 .juegoDados {
