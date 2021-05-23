@@ -12,12 +12,21 @@ p, em {
 }
 
 /* JUEGO DE DADOS */
+
+.izqCol{
+  position: relative;
+  left: 7%;
+}
+.derCol{
+  position: relative;
+  right: 7%;
+}
 .quienGano {
   margin-top: 2%;
 }
 
 .jugadores {
-  margin-top: 5%;
+  margin: 5% auto 0;
 }
 
 .juegoDados {
@@ -124,6 +133,15 @@ p, em {
 
 /* MODIFICACIONES PARA CELU */
 @media (max-width: 900px) {
+
+  .izqCol{
+    position: relative;
+    left: 3%;
+  }
+  .derCol{
+    position: relative;
+    right: 3%;
+  }
   .quienGano {
     margin-top: 10%;
     margin-bottom: 10%;
