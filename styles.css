@@ -12,18 +12,20 @@ p, em {
 }
 
 /* JUEGO DE DADOS */
-
-.izqCol{
+.izqCol {
   position: relative;
   left: 8%;
 }
-.players{
+
+.players {
   margin-bottom: 5%;
 }
-.derCol{
+
+.derCol {
   position: relative;
   right: 8%;
 }
+
 .quienGano {
   margin-top: 2%;
 }
@@ -53,6 +55,16 @@ p, em {
 }
 
 /* BARRA DE NAVEGACION */
+.marca{
+  width:10%;
+  position: relative;
+  bottom: 4px; 
+  margin-right: 2%;
+}
+.carde{
+  position: relative;
+  top: 2px;
+}
 .navinicio {
   padding-left: 1%;
   padding-right: 1%;
@@ -139,15 +151,16 @@ p, em {
 
 /* MODIFICACIONES PARA CELU */
 @media (max-width: 900px) {
-
-  .izqCol{
+  .izqCol {
     position: relative;
     left: 3%;
   }
-  .derCol{
+
+  .derCol {
     position: relative;
     right: 3%;
   }
+
   .quienGano {
     margin-top: 10%;
     margin-bottom: 10%;
