@@ -12,14 +12,16 @@ p, em {
 }
 
 /* PAGINA SONIDOS */
-.tablaSonidos{
+.tablaSonidos {
   text-align: center;
 }
-.botonSonido{
+
+.botonSonido {
   width: 150px;
   border-radius: 100%;
 }
-.cubreBoton{
+
+.cubreBoton {
   margin: 3% 0 1%;
 }
 
@@ -68,21 +70,24 @@ p, em {
 }
 
 /* BARRA DE NAVEGACION */
-.navbar{
+.navbar {
   background-color: #1e2022;
 }
-.marca{
-  width:37px;
+
+.marca {
+  width: 37px;
   position: relative;
   bottom: 4px;
   margin-right: 5px;
 }
-.carde{
+
+.carde {
   position: relative;
   top: 2px;
   margin-right: 0;
   width: 50%;
 }
+
 .navinicio {
   padding-left: 1%;
   padding-right: 1%;
@@ -169,9 +174,10 @@ p, em {
 
 /* MODIFICACIONES PARA CELU */
 @media (max-width: 900px) {
-  .row{
+  .row {
     margin: 0;
   }
+
   .izqCol {
     position: relative;
     left: 3%;

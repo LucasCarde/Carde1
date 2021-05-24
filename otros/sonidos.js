@@ -9,7 +9,7 @@ for (var i = 0; i < cantidad; i++) {
         sonido1.play()
         break;
       case "sonido2":
-      var sonido2 = new Audio("sonidos/Gallo.mp3")
+      var sonido2 = new Audio("sonidos/ringtones-llamada-de-homero.mp3")
         sonido2.play()
         break;
       case "sonido3":
