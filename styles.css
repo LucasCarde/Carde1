@@ -6,12 +6,21 @@ body {
 p, em {
   font-family: 'Newsreader', serif;
 }
-.navbar{
-  background-color: #1e2022;
-}
 
 .concv {
   padding: 1% 20%;
+}
+
+/* PAGINA SONIDOS */
+.tablaSonidos{
+  text-align: center;
+}
+.botonSonido{
+  width: 150px;
+  border-radius: 100%;
+}
+.cubreBoton{
+  margin: 3% 0 1%;
 }
 
 /* JUEGO DE DADOS */
@@ -59,6 +68,9 @@ p, em {
 }
 
 /* BARRA DE NAVEGACION */
+.navbar{
+  background-color: #1e2022;
+}
 .marca{
   width:37px;
   position: relative;
@@ -157,6 +169,9 @@ p, em {
 
 /* MODIFICACIONES PARA CELU */
 @media (max-width: 900px) {
+  .row{
+    margin: 0;
+  }
   .izqCol {
     position: relative;
     left: 3%;
