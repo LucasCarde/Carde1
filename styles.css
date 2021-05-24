@@ -15,10 +15,51 @@ p, em {
 .tablaSonidos {
   text-align: center;
 }
+.sonido1{
+  background-image: url("fotos/gato.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.sonido2{
+  background-image: url("fotos/homero.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.sonido3{
+  background-image: url("fotos/celu.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.sonido4{
+  background-image: url("fotos/pacman.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.sonido5{
+  background-image: url("fotos/monedamario.png");
+  background-size: cover;
+  background-position: center;
+}
+.sonido6{
+  background-image: url("fotos/killbill.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.sonido7{
+  background-image: url("fotos/mario.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.sonido8{
+  background-image: url("fotos/avengers.jpg");
+  background-size: cover;
+  background-position: center;
+}
 
 .botonSonido {
   width: 150px;
-  border-radius: 100%;
+  border-radius: 14%;
+  height: 150px;
 }
 
 .cubreBoton {
