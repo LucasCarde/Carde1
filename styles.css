@@ -11,7 +11,45 @@ p, em {
   padding: 1% 20%;
 }
 
+
+/* PAGINA MEMOTEST */
+.containerMemo{
+  text-align: center;
+}
+.comenzar{
+  margin: 3% auto;
+}
+.memoDer{
+  position: relative;
+  right: 35%;
+}
+.memoIzq{
+  position: relative;
+  left: 35%;
+}
+.botonMemo{
+  width: 200px;
+  height: 200px;
+  border-radius: 14%;
+  margin: 10px auto;
+}
+.memoAzul{
+  background-color: blue;
+}
+.memoRojo{
+  background-color: red;
+}
+.memoVerde{
+  background-color: green;
+}
+.memoAmarillo{
+  background-color: yellow;
+}
+
 /* PAGINA SONIDOS */
+.tituloSonidos{
+  margin-top: 2%;
+}
 .tablaSonidos {
   text-align: center;
 }
@@ -198,9 +236,32 @@ p, em {
   margin-top: 10%;
   float: left;
 }
+@media (max-width: 1300px){
+  .memoDer{
+    position: relative;
+    right: 27%;
+  }
+  .memoIzq{
+    position: relative;
+    left: 27%;
+  }
 
+}
 /* MODIFICACIONES PARA CELU */
 @media (max-width: 900px) {
+
+  .memoDer{
+    position: relative;
+    right: 8%;
+  }
+  .memoIzq{
+    position: relative;
+    left: 8%;
+  }
+  .botonMemo{
+    height: 150px;
+    width: 150px;
+  }
   .botonSonido {
     width: 125px;
     height: 125px;
